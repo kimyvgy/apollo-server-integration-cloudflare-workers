@@ -1,5 +1,7 @@
 # apollo-server-integration-cloudflare-workers
 
+[![NPM version](https://img.shields.io/npm/v/apollo-server-integration-cloudflare-workers.svg)](https://www.npmjs.com/package/apollo-server-integration-cloudflare-workers)
+
 This is Apollo Server v4 integration for Cloudflare Workers. It provides:
 - `kv-cache.ts` - `KVCache`: Cache on Cloudflare KV storage
 - `start-server.ts` - `startServerAndCreateCloudflareHandler`: Handle incoming request and return an instance of `Response`
